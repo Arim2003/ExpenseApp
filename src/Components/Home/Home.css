@@ -1,0 +1,90 @@
+/* FamilyExpensesApp.css */
+
+
+.family-expenses-app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /*background-color: #f0f0f0;*/
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  .wallet-balance {
+    margin-bottom: 20px;
+  }
+  
+  .wallet-balance p {
+    font-size: 18px;
+    color: #3498db;
+  }
+  
+  .expense-input {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+  }
+  
+  input {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .expense-list h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #3498db;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
